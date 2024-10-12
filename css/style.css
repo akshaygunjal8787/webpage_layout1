@@ -98,6 +98,21 @@ body{
     height: 50%;
     background-color: rgb(170, 57, 28);
 }
-@media screen {
-    
+
+@media only screen and (max-width:470px)
+{
+    .container{
+        width: 100%;
+    }
+    .container .header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .box .scroll1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
